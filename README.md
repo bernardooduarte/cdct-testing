@@ -70,8 +70,17 @@ Para rodar o ciclo completo (Geração + Verificação):
 
 ## 📂 Estrutura do Projeto
 
-
-bash cdct-testing/ ├── src/ │ └── api/ # Código da API (Express) ├── tests/ │ └── contract/ │ ├── consumer/ # Testes que geram o contrato (.spec.ts) │ └── provider/ # Testes que validam a API (.spec.ts) ├── pacts/ # Contratos JSON gerados automaticamente ├── .github/workflows/ # Pipeline de CI/CD └── package.json 
+```bash
+cdct-testing/
+├── src/
+│   └── api/                 # Código da API (Express)
+├── tests/
+│   └── contract/
+│       ├── consumer/        # Testes que geram o contrato (.spec.ts)
+│       └── provider/        # Testes que validam a API (.spec.ts)
+├── pacts/                   # Contratos JSON gerados automaticamente
+├── .github/workflows/       # Pipeline de CI/CD
+└── package.json
 
 ## 🤖 CI/CD (GitHub Actions)
 
