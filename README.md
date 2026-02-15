@@ -81,6 +81,7 @@ cdct-testing/
 ├── pacts/                   # Contratos JSON gerados automaticamente
 ├── .github/workflows/       # Pipeline de CI/CD
 └── package.json
+```
 
 ## 🤖 CI/CD (GitHub Actions)
 
