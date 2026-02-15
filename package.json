@@ -1,0 +1,33 @@
+{
+  "name": "cdct-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/api/server.ts",
+    "test:consumer": "jest tests/contract/consumer",
+    "test:provider": "jest tests/contract/provider",
+    "test:contract": "npm run test:consumer && npm run test:provider"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@pact-foundation/pact": "^16.2.0",
+    "@pact-foundation/pact-node": "^10.18.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.2.3",
+    "concurrently": "^9.2.1",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
